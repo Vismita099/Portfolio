@@ -1,0 +1,85 @@
+.home {
+  display: flex;
+  justify-content: space-between;
+  height: 90vh;
+  width: 100vw;
+  background-color: #fffed3;
+}
+.texts {
+  color: #2e3105;
+}
+.home-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60vw;
+  align-items: center;
+}
+.home-content h3 {
+  font-size: 4vw;
+  font-weight: 700;
+  color: #979763;
+}
+.home-content h1 {
+  font-size: 4.5vw;
+  color: #595e11;
+}
+.profile {
+  display: flex;
+  width: 40vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile img {
+  width: 32vw;
+  border-radius: 50%;
+
+  animation: floatImage 4s ease-in-out infinite;
+}
+@keyframes floatImage {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-2.4rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+#socials {
+  display: flex;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+.icon {
+  cursor: pointer;
+  height: 2rem;
+  transition: transform 0.3s;
+}
+#socials .icon:hover {
+  transform: scale(1.1);
+}
+
+.resume-btn button {
+  height: 7vh;
+  width: fit-content;
+  margin: 10px auto;
+  justify-content: center;
+  display: block;
+  color: white;
+  background-color: #aaaa70;
+  font-size: 2vw;
+  font-weight: bold;
+  margin-top: 20px;
+  border-radius: 5px;
+  transition: 0.2s ease-in;
+  cursor: pointer;
+}
+
+.resume-btn button:hover {
+  background-color: #f8ff90f1;
+  color: black;
+}
