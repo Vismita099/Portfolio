@@ -6,7 +6,7 @@ import ScrollReveal from "scrollreveal";
 function Hero() {
   useEffect(() => {
     ScrollReveal().reveal(".home-content", {
-      origin: "top",
+      origin: "left",
       reset: true,
       distance: "80px",
       duration: 1600,
@@ -14,7 +14,7 @@ function Hero() {
     });
 
     ScrollReveal().reveal(".profile img", {
-      origin: "bottom",
+      origin: "top",
       reset: true,
       distance: "80px",
       duration: 1500,

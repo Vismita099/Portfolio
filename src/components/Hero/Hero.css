@@ -85,35 +85,44 @@
   color: black;
 }
 
-/* For Mobile Devices (widths less than 768px) */
+/* Media Query for Mobile Devices (widths less than 768px) */
 @media (max-width: 768px) {
   .home {
-    flex-direction: column;
-    align-items: center;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center align the content */
     padding: 1rem 0;
   }
 
   .profile {
-    order: 1; /* Display the profile first */
-    width: 100%;
+    order: 1; /* Show the profile first */
+    width: 100%; /* Take full width */
     display: flex;
-    justify-content: center;
+    justify-content: center; /* Center the profile image */
     align-items: center;
-    margin-bottom: 1rem;
+    /* Add spacing below the profile */
   }
 
   .home-content {
-    order: 2; /* Display the content after the profile */
-    width: 95%;
-    text-align: center;
+    order: 2; /* Show the home content below the profile */
+    width: 95%; /* Reduce the width for better readability */
+    text-align: center; /* Center the text */
+    /* Add spacing above the content */
   }
 
   .profile img {
-    width: 50vw; /* Adjust profile image size for mobile */
+    width: 65vw; /* Adjust the image size for mobile */
+    max-width: 150px; /* Limit the maximum size */
   }
-  .resume-btn button {
-    height: 5vh;
-    font-size: 4vw;
-    padding: 0.5rem 0.8rem;
+
+  .home-content h3 {
+    font-size: 5vw; /* Adjust the heading size for smaller screens */
+  }
+
+  .home-content h1 {
+    font-size: 6vw; /* Adjust the main title size */
+  }
+
+  .home-content .texts {
+    font-size: 4.5vw; /* Adjust the animated text size */
   }
 }
