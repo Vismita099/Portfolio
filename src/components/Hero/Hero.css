@@ -67,14 +67,15 @@
   height: 7vh;
   width: fit-content;
   margin: 10px auto;
+  padding: 0.7rem 1rem;
   justify-content: center;
   display: block;
   color: white;
   background-color: #aaaa70;
-  font-size: 2vw;
+  font-size: 1.8vw;
   font-weight: bold;
   margin-top: 20px;
-  border-radius: 5px;
+  border-radius: 4px;
   transition: 0.2s ease-in;
   cursor: pointer;
 }
@@ -82,4 +83,37 @@
 .resume-btn button:hover {
   background-color: #f8ff90f1;
   color: black;
+}
+
+/* For Mobile Devices (widths less than 768px) */
+@media (max-width: 768px) {
+  .home {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+  }
+
+  .profile {
+    order: 1; /* Display the profile first */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+
+  .home-content {
+    order: 2; /* Display the content after the profile */
+    width: 95%;
+    text-align: center;
+  }
+
+  .profile img {
+    width: 50vw; /* Adjust profile image size for mobile */
+  }
+  .resume-btn button {
+    height: 5vh;
+    font-size: 4vw;
+    padding: 0.5rem 0.8rem;
+  }
 }

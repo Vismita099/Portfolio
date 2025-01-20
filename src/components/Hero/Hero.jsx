@@ -22,7 +22,7 @@ function Hero() {
     });
 
     const typed = new Typed(".texts", {
-      strings: ["Web Developer", "ML Enthusiasist"],
+      strings: ["Web Developer", "ML Enthusiast"],
       typeSpeed: 100,
       backSpeed: 100,
       backDelay: 1000,
@@ -41,23 +41,33 @@ function Hero() {
           And I'm a <span class="texts"></span>
         </h3>
         <div class="resume-btn">
-          <button onclick="window.open('./asserts/resume_vismita.pdf')">
+          <button onClick={() => window.open("./assets/resume_vismita.pdf")}>
             Resume
           </button>
         </div>
         <div id="socials">
-          <img
-            src="./assets/linkedin.png"
-            alt="LinkedIn Profile"
-            class="icon"
-            onclick="location.href='https://linkedin.com/in/vismita-a-312232274'"
-          />
-          <img
-            src="./assets/github.png"
-            alt="GitHub Profile"
-            class="icon"
-            onclick="location.href='https://github.com/Vismita099'"
-          />
+          <a
+            href="https://linkedin.com/in/vismita-a-312232274"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="./assets/linkedin.png"
+              alt="LinkedIn Profile"
+              className="icon"
+            />
+          </a>
+          <a
+            href="https://github.com/Vismita099"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="./assets/github.png"
+              alt="GitHub Profile"
+              className="icon"
+            />
+          </a>
         </div>
       </div>
       <div class="profile">
