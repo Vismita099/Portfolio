@@ -1,0 +1,38 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1.3rem 5%;
+  background: bisque;
+}
+
+.footer-text p {
+  font-size: 18px;
+}
+.iconTop {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.8rem;
+  outline: 0.2rem solid transparent;
+  transition: 0.5s ease;
+}
+.iconTop img {
+  cursor: pointer;
+  height: 2rem;
+  transition: transform 0.3s;
+}
+.iconTop img:hover {
+  transform: scale(1.1);
+}
+@media (max-width: 765px) {
+  .footer {
+    flex-direction: column-reverse;
+  }
+  .footer p {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Portfolio",
+    "description": "My Portfolio with React.js",
+    "source": " ",
+    "link-img": " ",
+    "proj-img": " "
+  },
+  {
+    "title": "Food Delivery Website",
+    "description": "An equisite food delivery website usin HTL, CSS and Js",
+    "source": " ",
+    "link-img": " ",
+    "proj-img": " "
+  },
+  {
+    "title": "Crop Disease Prediction Model",
+    "description": "A CNN based Crop Disease Predction Model for Potato crops",
+    "source": " ",
+    "link-img": " ",
+    "proj-img": " "
+  }
+]
