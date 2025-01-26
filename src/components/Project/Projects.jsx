@@ -1,7 +1,7 @@
 import React from "react";
 import "./Project.css";
 import projects from "../../data/projects.json";
-import ProjectCard from "./projectCard";
+import ProjectCard from "./ProjectCard";
 function Project() {
   return (
     <div class="container">
