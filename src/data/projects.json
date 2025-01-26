@@ -2,22 +2,22 @@
   {
     "title": "Portfolio",
     "description": "My Portfolio with React.js",
-    "source": " ",
-    "link-img": " ",
-    "proj-img": " "
+    "source": "https://github.com/Vismita099/Portfolio",
+    "link-img": "./assets/github.png",
+    "proj-img": "./assets/Projects/proj1.png"
   },
   {
     "title": "Food Delivery Website",
-    "description": "An equisite food delivery website usin HTL, CSS and Js",
-    "source": " ",
-    "link-img": " ",
-    "proj-img": " "
+    "description": "An equisite food delivery website usin HTML, CSS and Js",
+    "source": "https://github.com/Vismita099/Food-delivery-website",
+    "link-img": "./assets/github.png",
+    "proj-img": "./assets/Projects/proj2.png"
   },
   {
     "title": "Crop Disease Prediction Model",
     "description": "A CNN based Crop Disease Predction Model for Potato crops",
     "source": " ",
-    "link-img": " ",
-    "proj-img": " "
+    "link-img": "./assets/github.png",
+    "proj-img": "./assets/Projects/proj3.png"
   }
 ]
